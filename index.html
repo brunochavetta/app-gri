@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf-8">
+ <title>Lee y escribe con App Gri</title>
+ <meta name="description" content="Web responsive, App o red social de lectura y escritura">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- Icon-fonts con Fontawesome -->
+ <link rel="stylesheet" href="css/all.css">
+
+ <!-- Slider -->
+ <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+ <!-- Estilos del documento html -->
+ <link rel="stylesheet" href="css/style.css">
+
+ <!-- Carga de favicon-->
+ <link rel="icon" href="images/favicon.png" type="image/png">
+
+</head> 
+
+
+
+<body>
+
+ 
+
+<nav class="navbar">
+  <div class="container">
+   <div class="row clearfix">
+     <!--Menú hamburguesa-->
+     <div class="col-1">
+       <div class="menu-button">
+           <span>
+             <i class="fas fa-bars fa-2x"></i>
+           </span>
+           <!--Menú de navegación-->
+           <!--Menú oculto dentro de menú hamburguesa-->
+           <ul class="navbar-menu">
+             <li class="navbar-item">
+                 <a href="#formulario" class="navbar-link">Formulario de registro</a>
+             </li>
+             <li class="navbar-item"> 
+                 <a href="#opiniones" class="navbar-link">Opiniones</a>
+             </li>
+             <li class="navbar-item">
+                 <a href="#redes" class="navbar-link">Redes y contacto</a>
+            </li>
+             <li class="navbar-item">
+                 <a href="#descarga" class="navbar-link">Descarga la App</a>
+            </li>
+             <li class="navbar-item">
+                 <a href="#anclas" class="navbar-link">Más información</a> 
+            </li>
+           </ul>
+       </div>
+     </div>
+     <!--Nombre de la aplicación-->
+     <div class="col-2">
+      <a href="#/">
+         <h1>App Gri</h1>
+      </a>
+     </div>
+      <!--Logo de la App-->
+      <div class="col-1">
+         <a href="">
+             <img src="images/icono-2(1).png" width="60" title="Icono de App Gri" alt="Logo de la App">
+         </a>
+      </div>
+   
+      <div class="clearfix-1"></div>
+   </div> <!-- /.row -->
+  </div><!-- /.container -->
+</nav>
+ 
+
+
+<main class="bg-img">
+   <div class="container">
+     <div class="row clearfix">
+       <header class="col-4">
+         <section id="principal">
+             <!--Descripción e imagen representativa de la App-->
+             <div class="row clearfix">
+               <article>
+                 <div class="col-1">
+                    <img src="images/imagen-principal.png" width="87.5"   title="Libros en tu dispositivo con App Gri"     alt="Descripción gráfica de App Gri">
+                 </div>
+                 <div class="col-3">
+                        <p>"App Gri" es una <span>aplicación, página web y red social de lectura y escritura</span> de libros, textos, poemas, etc.
+                        </p>
+                        <p>Descárgala hoy para comenzar a leer y/o escribir   obras famosas y originales.<p>
+                 </div>
+               
+               <div class="clearfix-1"></div>
+               </article>
+            </div> <!-- /.row-3 -->
+
+
+          <!--Formulario de registro-->
+          <div class="row" id="formulario">
+            <div class="col-4 form">
+               <hr>
+               <h3>Registro</h3>
+               <form action="procesar-formulario.php" post="post">
+                   <input type="text" placeholder="Nombre(s) y apellido(s)" required class="block pt-10 mb-10">
+                   <input type="date" placeholder="Fecha de nacimiento" required class="block pt-10 mb-10">
+                   <input type="email" placeholder="Email" required class="block pt-10 mb-10">
+                   <input type="password" placeholder="Contraseña" required class="block pt-10 mb-10">
+                   <button class="btn btn-block py-12 w-100"type="submit">Registrarse</button>
+               </form>
+           </div>
+             <br>
+           </div> <!-- /.row-4 -->
+           
+         </section> 
+           
+           
+
+           <section id="secundario">
+             <!--Anclas / Call to Action o Llamada a la Acción (CTA)-->
+             <div class="row clearfix">
+                <hr> 
+                <br> 
+       
+                <div class="col-2">
+                    <a href="#beneficios" style="border:solid 2px gray" class="anchorage      config-anchorage">Datos y beneficios</a>
+                </div>   
+  
+                <div class="col-2"> 
+                    <a href="#terminos" style="border:solid 2px gray" class="anchorage config-anchorage">Términos y  condiciones</a>
+                </div> 
+       
+                <br>
+                <br>
+             </div> <!-- /.row-5 -->
+         
+         
+             <aside>
+                <!-- Opiniones de personas/usuarios que han utilizado/probado la app -->
+                <div class="row" id="opiniones">
+                  <h3>Opiniones</h3>
+                  <div class="bxslider">    
+                    <div class="col-4 img img-width-opinions">
+                          <img src="images/opinion-1.png" width="100%" height="100px"   title="comentario/opinión(1)" alt="Captura(1): opinión hecha por un  miembro de App Gri">
+                     </div>
+                    <div class="col-4 img img-width-opinions">
+                          <img src="images/opinion-2.png" width="100%" height="100px" title="comentario/opinión(2)"  alt="Captura(2): opinión hecha por un miembro de App Gri">
+                          <br>
+                    </div>
+                  </div>
+                </div> <!-- /.row-6 -->    
+                <br>     
+             </aside>
+           </section>
+       </header>
+     </div><!-- /.row -->
+   </div><!-- /.container -->
+</main>
+     
+     
+
+<footer>
+
+  <!--Anclas de contacto y teléfono de quienes manejan la App.-->
+  <div class="container">
+    <div class="row clearfix">
+       <hr> 
+       <div class="col-4 text-color">
+            <h4>CONTACTO</h4>
+            <i class="fas fa-envelope"></i><a href="mailto:gri.leeyescribe@gmail.com" target="_blank" class="text-color"> gri.leeyescribe@gmail.com</a>
+            <br>
+            <i class="fas fa-phone-alt"></i><a href="tel:08000000000" target="_blank" class="text-color"> 0800-000-0000</a>
+        </div>
+
+
+      <!--Anclas para descargar la App. Páginas externas-->
+       <div class="col-2 text-color">
+         <h4>DESCARGA</h4>     
+         <div id="descarga" class="anchorage">
+              <a href="https://play.google.com/store" target="_blank"><img src="images/play-store.svg" width="29" title="Descarga por Play Store" alt="Logo Play Store"></a>
+              <a href="https://www.apple.com/app-store/" target="_blank" class="text-color"><i class="fab fa-app-store fa-2x"></i></a>
+         </div>
+       </div>
+
+
+       <!--Anclas de redes sociales. Páginas externas-->
+       <div class="col-2 text-color">           
+           <h4>REDES SOCIALES</h4>
+           <div id="redes" class="anchorage">
+               <a href="https://www.facebook.com/" target="_blank" class="text-color"><i class="fab fa-facebook fa-2x"></i></a>
+               <a href="https://www.instagram.com/" target="_blank" class="text-color"><i class="fab fa-instagram fa-2x"></i></a>
+               <a href="https://twitter.com/" target="_blank" class="text-color"><i class="fab fa-twitter fa-2x"></i></a>
+           </div>
+           <br>
+           <br>
+           <br>
+       </div>
+
+
+       
+         <hr class="separador">
+         <p class="m-0 text-small text-color">Diseñado y desarrollado por</p><a href="https://github.com/brunochavetta" class="text-lg text-small">App Gri - Bruno Chavetta</a></p> 
+
+
+
+
+    </div> <!-- /.row -->
+</div> <!-- /.container -->
+</footer>
+
+
+
+
+<!--PREGUNTA: las ventanas modales deben clasificarse como section y article?-->
+<!--Ventanas modales 1-beneficios, 2-Términos y condiciones-->
+
+  <!--Ventajas que ofrece la App (texto e imagen)-->
+  <div  id="beneficios" class="modal-mask"> 
+     <hr>
+     <div class="container">
+      <div class="content"> 
+        <div class="row clearfix">
+          <div class="col-4">
+             <a href="#/">Cerrar</a>
+             <h3>Datos y beneficios</h3>
+                 
+                 <details>
+                      <summary>Escribí y compartí todas tus creaciones</summary>
+                         <p>Con Gri no solo puedes escribir todas tus obras y guardarlas en la nube, sino que además tienes la opción compartirlas con todos y todas las integrantes de la app. También puedes creer una seccion para que sólo tenga acceso quienes desees. No solo eso, podrás escribir en equipo... al mismo tiempo!</p>
+                 </details>
+
+                 <details>
+                      <summary>Quieres volverte famoso/a haciendo lo que más te gusta?</summary>
+                         <p>Promocioná tus escritos/obras con los miembros de la aplicación: Gri te da esa oportunidad.Puedes promocionar todos tus libros y hacerte conocer por toda nuestra comunidad. Recibe votos para encontrarte en el puesto número 1 de los libros más leídos.</p>
+                 </details> 
+
+                 <details>
+                      <summary>Lee escritos/obras de autores/as no conocidos/as, como así también de escritores/as famosos/as</summary>
+                         <p>Gri no sólo brinda la oportunidad de que hagas realidad tu sueño, haciendo que las personas puedan conocer tu talento. Sino que además... ¿Eres fan de algún/a autor/a? En nuestra app podrás leer esos escritos que tanto te gustan y muchos más estarán esperándote para que los conozcas.</p> 
+                 </details>
+
+                 <details>
+                      <summary>Votá y guardá tus libros favoritos</summary>
+                         <p>Leíste un libro y quieres compartirlo con el mundo? Con la opción "me gusta" tienes la oportunidad de hacerlo real, entre más votos más lejos llegará. Puedes ponerle un puntaje de 1 a 5 estrellas.</p>
+                         <p>"App Gri" cuenta con una opción de "biblioteca virtual", guarda los libros que más te gustaron y para que puedas seguir leyéndolos más tarde, sin tiempo.</p> 
+                 </details>
+                               
+                 <details>
+                      <summary>Descargaste otra app la cual nunca la entendiste?</summary>
+                         <p>Buena organización e interfaz visual atractivo: gracias a su organización, es muy fácil aprender a usar "App Gri" y conocer cómo moverte dentro de la aplicación de forma correcta. Además, podemos experimentar la satisfacción que sentimos al leer la página de un libro, pero directamente desde nuestro celular.</p>
+                 </details>
+              
+                 <details>
+                      <summary>Estás interesado en leer libros de un género literario pero no los encuentras?</summary>
+                         <p>Configurá el motor de búsqueda: "App Gri" brinda la posibilidad de poder configurarlo por categorías y así poder encontrar escritos de tu interés con mayor facilidad.</p>
+                 </details>
+              
+                 <details>
+                      <summary>Buscas un libro y no está disponible?</summary>
+                         <p>Encargá los libros que no encuentres: con Gri puedes encargar eso que tanto quieres leer y tenerlo en tu biblioteca, en menos de 24 horas, por tiempo indefinido.</p>
+                 </details>
+            
+
+              </div>
+         </div>  <!-- /.row-beneficios -->
+      </div> 
+     </div><!-- /.container -->
+  </div>
+
+<aside>
+   <div  id="terminos" class="modal-mask"> 
+      <hr>
+      <div class="container">
+        <div class="content">
+          <div class="row clearfix">
+            <div class="col-4">
+              <a href="#/">Cerrar</a>
+              <h3>Política de privacidad</h3>
+              <p>App Gri...</p>
+              <h3>Términos y condiciones</h3>
+              <p>Al aceptar...</p>
+              <!--consultar si se coloca (de otra forma)en la landing-->
+              <!--<button type="submit" required>Aceptar política de   privacidad</button>
+              <button type="submit" required>Aceptar términos y condiciones</  button>-->
+            </div>
+          </div> <!-- /.row --> 
+        </div> 
+      </div> <!-- /.container -->
+   </div>
+</aside>
+
+<!-- Biblioteca jQuery y el código JS -->
+<!-- jQuery library (served from Google) -->
+<script src="js/jquery-3.1.1.min.js"></script>
+
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.js"></script>
+
+<script>
+  $(function(){
+    $('.bxslider').bxSlider({
+      mode: 'fade',
+      auto:true,
+      captions: true,
+      slideWidth: 600,
+      adaptiveHeight:true
+    });
+  });
+</script>
+
+
+</body>
+</html>
