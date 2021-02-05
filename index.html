@@ -25,37 +25,42 @@
 <body>
 
  
-
-<nav class="navbar">
+<header>
   <div class="container">
    <div class="row clearfix">
-     <!--Menú hamburguesa-->
-     <div class="col-1">
-       <div class="menu-button">
-           <span>
-             <i class="fas fa-bars fa-2x"></i>
-           </span>
-           <!--Menú de navegación-->
-           <!--Menú oculto dentro de menú hamburguesa-->
-           <ul class="navbar-menu">
-             <li class="navbar-item">
-                 <a href="#formulario" class="navbar-link">Formulario de registro</a>
-             </li>
-             <li class="navbar-item"> 
-                 <a href="#opiniones" class="navbar-link">Opiniones</a>
-             </li>
-             <li class="navbar-item">
-                 <a href="#redes" class="navbar-link">Redes y contacto</a>
-            </li>
-             <li class="navbar-item">
-                 <a href="#descarga" class="navbar-link">Descarga la App</a>
-            </li>
-             <li class="navbar-item">
-                 <a href="#anclas" class="navbar-link">Más información</a> 
-            </li>
-           </ul>
+    <div class="navbar">
+      <!--Menú hamburguesa-->
+      <div class="menu-button">
+        <span>
+           <i class="fas fa-bars fa-2x"></i>
+       </span>
+      </div>   
+              <nav>
+                  <!--Menú de navegación-->
+                  <!--Menú oculto dentro de menú hamburguesa-->
+                 <ul class="navbar-menu">
+                   <li class="navbar-item">
+                       <a href="#formulario" class="navbar-link">Formulario de registro</a>
+                   </li>
+                   <li class="navbar-item"> 
+                       <a href="#opiniones" class="navbar-link">Opiniones</a>
+                   </li>
+                   <li class="navbar-item">
+                       <a href="#redes" class="navbar-link">Redes y contacto</a>
+                  </li>
+                   <li class="navbar-item">
+                       <a href="#descarga" class="navbar-link">Descarga la App</a>
+                  </li>
+                   <li class="navbar-item">
+                       <a href="#anclas" class="navbar-link">Más información</a> 
+                  </li>
+                 </ul>
+              </nav>
+              <div class="col-1">
        </div>
-     </div>
+
+
+
      <!--Nombre de la aplicación-->
      <div class="col-2">
       <a href="#/">
@@ -70,19 +75,18 @@
       </div>
    
       <div class="clearfix-1"></div>
-   </div> <!-- /.row -->
+   </div><!-- /.navbar --> 
+  </div><!-- /.row -->
   </div><!-- /.container -->
-</nav>
+</header>
  
 
 
 <main class="bg-img">
    <div class="container">
-     <div class="row clearfix">
-       <header class="col-4">
-         <section id="principal">
-             <!--Descripción e imagen representativa de la App-->
-             <div class="row clearfix">
+      <section id="principal">
+        <div class="row clearfix">
+             <!-- Descripción e imagen representativa de la App -->
                <article>
                  <div class="col-1">
                     <img src="images/imagen-principal.png" width="87.5"   title="Libros en tu dispositivo con App Gri"     alt="Descripción gráfica de App Gri">
@@ -95,12 +99,10 @@
                
                <div class="clearfix-1"></div>
                </article>
-            </div> <!-- /.row-3 -->
 
 
           <!--Formulario de registro-->
-          <div class="row" id="formulario">
-            <div class="col-4 form">
+            <div class="col-4 form" id="formulario">
                <hr>
                <h3>Registro</h3>
                <form action="procesar-formulario.php" post="post">
@@ -110,11 +112,11 @@
                    <input type="password" placeholder="Contraseña" required class="block pt-10 mb-10">
                    <button class="btn btn-block py-12 w-100"type="submit">Registrarse</button>
                </form>
+              <br> 
            </div>
-             <br>
-           </div> <!-- /.row-4 -->
+             
            
-         </section> 
+         </section>  
            
            
 
@@ -134,7 +136,7 @@
        
                 <br>
                 <br>
-             </div> <!-- /.row-5 -->
+             </div> <!-- /.row-->
          
          
              <aside>
@@ -150,15 +152,14 @@
                           <br>
                     </div>
                   </div>
-                </div> <!-- /.row-6 -->    
+                </div> <!-- /.row -->    
                 <br>     
              </aside>
            </section>
-       </header>
      </div><!-- /.row -->
    </div><!-- /.container -->
 </main>
-     
+      
      
 
 <footer>
