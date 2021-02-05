@@ -290,16 +290,22 @@ p{
  .menu-button span {
   cursor:pointer;
  }
+
+
+ nav{
+   z-index: 1001;
+ }
+ 
  
    nav .navbar-menu {
      margin: 0;
      padding: 8px 25px;
-     position: absolute ;
+     position: absolute;
      left: -514px;
      background-color: var(--first-color);
      z-index: 1000; 
      transition: all 500ms cubic-bezier(0.85, 0, 0.15, 1);
-}
+  }
 
      .navbar-item {
        margin-bottom:10px;     
@@ -315,7 +321,7 @@ p{
          background: orange;
     }
 
-    .menu-button span:hover ~ nav .navbar-menu, nav .navbar-menu:hover{
+    .menu-button:hover ~ nav .navbar-menu{
       left: 0;
     } 
 
@@ -330,9 +336,9 @@ p{
   z-index: 1001;
 }
 
-main{
+/* main{
   display: none;
-}
+} */
 
  #principal{
 
